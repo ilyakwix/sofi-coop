@@ -1,0 +1,34 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, system-ui, sans-serif;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, #000000B8 0%, #00000036 100%), url('https://ecopeaceme.org/wp-content/uploads/2024/01/Cover-Image-for-Website-Nobel-Prize-14.1.2023.jpg');
+    background-position: 50%;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.content {
+    max-width: 1280px;
+    width: 100%;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.title {
+    max-width: 760px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+    margin-bottom: 24px;
+}
+
+.description {
+    max-width: 760px;
+    line-height: 24px;
+}
